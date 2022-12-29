@@ -1,0 +1,81 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  background-color: #f6f6f6;
+  margin: auto;
+}
+.container .get-repos {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eee;
+}
+.container .get-repos input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+  height: 54px;
+}
+.container .get-repos input:focus {
+  outline: 0;
+}
+.container .get-repos .get-button {
+  width: 140px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #f44336;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container .show-data {
+  padding: 20px;
+  background-color: #E0E0E0;
+}
+.container .show-data div {
+  padding: 10px 10px;
+  margin: 10px;
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .show-data div div a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px;
+}
+.container .show-data div div a:nth-child(1) {
+  background-color: #0a87eb;
+}
+.container .show-data div div a:nth-child(1):hover {
+  background-color: #0a99eb;
+}
+.container .show-data div div a:nth-child(2) {
+  background-color: #f44336;
+}
+.container .show-data div div a:nth-child(2):hover {
+  background-color: #ff594d;
+}
+
+/*# sourceMappingURL=main.css.map */
